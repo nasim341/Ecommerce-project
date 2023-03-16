@@ -10,7 +10,7 @@ exports.register = async (req, res) => {
   try {
 
     const { name, email, password } = req.body;
-    n
+
     if (!name.trim()) {
       return res.json({ error: "Name is required" });
     }

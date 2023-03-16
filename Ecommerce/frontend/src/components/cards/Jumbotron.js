@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Jumbotron = (
+const Jumbotron = ({
     title,
     subTitle = "welcome to React E-commerce"
-) => {
+}) => {
     return (
         <div className="container-fluid jumbotron"
             style={{ marginTop: "-8px", height: "200px" }}

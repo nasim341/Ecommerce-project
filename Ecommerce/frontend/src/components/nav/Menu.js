@@ -22,7 +22,6 @@ const Menu = () => {
             </li>
         </ul>
 
-
     );
 };
 export default Menu;
